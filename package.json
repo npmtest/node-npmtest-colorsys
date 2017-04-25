@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [colorsys (v1.0.10)](https://github.com/netbeast/colorsys)  [![npm package](https://img.shields.io/npm/v/npmtest-colorsys.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-colorsys) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-colorsys.svg)](https://travis-ci.org/npmtest/node-npmtest-colorsys)",
+    "description": "#### basic test coverage for  [colorsys (v1.0.10)](https://github.com/netbeast/colorsys)  [![npm package](https://img.shields.io/npm/v/npmtest-colorsys.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-colorsys) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-colorsys.svg)](https://travis-ci.org/npmtest/node-npmtest-colorsys)",
     "devDependencies": {
         "colorsys": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",

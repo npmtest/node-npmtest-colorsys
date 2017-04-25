@@ -1,6 +1,6 @@
 # npmtest-colorsys
 
-#### test coverage for  [colorsys (v1.0.10)](https://github.com/netbeast/colorsys)  [![npm package](https://img.shields.io/npm/v/npmtest-colorsys.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-colorsys) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-colorsys.svg)](https://travis-ci.org/npmtest/node-npmtest-colorsys)
+#### basic test coverage for  [colorsys (v1.0.10)](https://github.com/netbeast/colorsys)  [![npm package](https://img.shields.io/npm/v/npmtest-colorsys.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-colorsys) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-colorsys.svg)](https://travis-ci.org/npmtest/node-npmtest-colorsys)
 
 #### Bidirectional conversions between different colors format like RGB, HSL, HSV and HEX
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-colorsys/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-colorsys/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-colorsys/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-colorsys/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-colorsys/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-colorsys/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-colorsys/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-colorsys/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-colorsys/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-colorsys/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-colorsys/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-colorsys/build/coverage.html/index.html)
 
@@ -86,7 +86,8 @@
         "release:minor": "npm version minor && npm publish && git push --follow-tags",
         "release:patch": "npm version patch && npm publish && git push --follow-tags"
     },
-    "version": "1.0.10"
+    "version": "1.0.10",
+    "bin": {}
 }
 ```
 
